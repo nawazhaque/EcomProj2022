@@ -17,9 +17,10 @@ body{
 }
 
 .shopCart{
-    display: inline-block;
-    border-radius: 30px;
-    transition: background 0.5s;
+  display: inline-block;
+  border: 1px solid #555;
+  min-width: 50px;
+  max-height: 60px;
 }
 
 nav{
@@ -56,7 +57,7 @@ p{
 
 .hero{
     background-image: url("hero.jpeg");
-    height: 800px;
+    height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,8 +91,8 @@ p{
 }
 
 .logo{
-   min-width:150;
-   height:144px;
+   min-width:140px;
+   max-height:144px;
    padding: 1px;
    margin-bottom: 0px;
 }
@@ -110,11 +111,95 @@ p{
     background: #563433
 }
 
-.gladShins{
-    height: 320px; 
+
+
+.deal-img2{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
 }
 
+.deal-img3{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
 
+.deal-img4{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img5{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img6{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img7{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img8{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img9{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img10{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img11{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555; 
+}
+
+.deal-img12{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
 
  .row{
     display:flex;
@@ -147,6 +232,7 @@ p{
     position: relative;
     line-height: 60px;
     color: #555;
+    font-size: 30px;
 }
 
 .title::after{
@@ -162,9 +248,11 @@ p{
 }
 
 .deal-img{
-    float:left;
-    padding: 10px;
-    margin-right:auto
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
 }
 
 .deal{
@@ -223,4 +311,24 @@ p{
     flex-basis: 30%;
     text-align: right;
     float: right;
+}
+
+.youtubeLogo{
+min-width:77px;
+max-height: 77px; 
+}
+
+.btnCart {
+    display: inline-block;
+    background: rgb(241, 132, 132);
+    color: black;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background .6s;
+}
+
+.btnCart:hover{
+    background: black;
+    color: white;
 }
