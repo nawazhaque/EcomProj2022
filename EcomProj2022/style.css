@@ -90,6 +90,10 @@ p{
     color: grey;
 }
 
+.gladShins{
+    margin-left: 1px;
+}
+
 .logo{
    min-width:140px;
    max-height:144px;
@@ -226,13 +230,17 @@ border: 5px solid #555;
     padding-right: 20px;
 }
 
+.feat1{
+    margin-top:80px;
+}
+
 .title{
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
     color: #555;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .title::after{
